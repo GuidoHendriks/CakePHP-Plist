@@ -15,7 +15,9 @@ With CakePHP-Plist it’s easy to generate Plists from your CakePHP app. It uses
             )
         ))
     );
+
 * Load the `RequestHandler` in either the `AppController` or any other controller you would like to use it in. You need to let the `RequestHandler` know about the plugin:
+
     public $components = array('RequestHandler' => array(
         'viewClassMap' => array(
             'plist' => 'Plist.Plist'
