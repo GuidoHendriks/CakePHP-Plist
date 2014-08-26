@@ -1,5 +1,4 @@
 # CakePHP-Plist
-=================
 With CakePHP-Plist it’s easy to generate Plists from your CakePHP app. It uses a view class, so you can use it by extension parsing, just like the built-in JSON support. Both plain and binary plists are supported.
 
 ## Installation
